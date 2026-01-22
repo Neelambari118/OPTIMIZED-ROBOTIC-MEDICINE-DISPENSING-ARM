@@ -23,3 +23,4 @@ figure;
 plot(err); grid on;
 title('Gradient Descent Convergence');
 plot_torques(t, TAU);
+
