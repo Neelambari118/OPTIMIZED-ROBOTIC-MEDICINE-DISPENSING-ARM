@@ -34,13 +34,12 @@ $$\tau = M(q)\ddot{q} + C(q, \dot{q})\dot{q} + G(q)$$
 
 ##  Repository Structure
 ```text
+## 📂 Repository Structure
+```text
 ├── src/
-│   ├── main.m                  # Simulation entry point
-│   ├── ik_gradient_descent.m   # Numerical IK solver (Jacobian Transpose)
-│   ├── dynamics_euler.m        # Torque computation & Gravity Comp
-│   ├── trajectory_quintic.m    # S-Curve path planning
-│   └── robot_config.m          # DH Parameters and Link lengths
+│   └── main.m               # Monolithic simulation script
+│                            # (Contains: IK Solver, Euler-Lagrange Dynamics, Trajectory Planner)
 ├── docs/
-│   └── IRMISREPORT.pdf         # Full Technical Report
+│   └── IRMISREPORT.pdf      # Full Technical Report
 ├── .gitignore
 └── README.md
