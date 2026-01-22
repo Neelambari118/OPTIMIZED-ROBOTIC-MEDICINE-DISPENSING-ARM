@@ -41,29 +41,5 @@ Where $G(q)$ handles dynamic **gravity compensation**, automatically adjusting v
 │   └── REPORT.pdf           # Full Technical Report
 ├── .gitignore
 └── README.md
-```
 
-##  Performance Metrics
-Metric,Value,Condition
-Convergence Threshold,10−5 m,Euclidean Error
-Payload Capacity,0.2 kg,Standard Medicine Bottle
-Optimization Rate,α=0.05,Learning Rate
-Trajectory Type,Quintic S-Curve,Continuous Acceleration
 
-##  Authors
-* **Neelambari P** (DL.AI.U4AID24026)
-* **Arunima Krishna** (DL.AI.U4AID24008)
-* **Arpit Baral** (DL.AI.U4AID24007)
-
-*Department of Artificial Intelligence & Data Science, Amrita Vishwa Vidyapeetham*
-
-##  Citation
-If you use this work, please cite the accompanying report:
-```bibtex
-@techreport{SCARA_Dispenser_2025,
-  title={Optimized Robotic Medicine-Dispensing Arm},
-  author={Neelambari, P. and Krishna, A. and Baral, A.},
-  institution={Amrita Vishwa Vidyapeetham},
-  year={2025},
-  month={December}
-}
