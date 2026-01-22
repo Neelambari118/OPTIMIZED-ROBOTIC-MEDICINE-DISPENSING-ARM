@@ -1,4 +1,4 @@
-<img width="830" height="643" alt="image" src="https://github.com/user-attachments/assets/4874a96a-2c04-4130-95b8-3d65033d32e6" /># Optimized Robotic Medicine-Dispensing Arm
+
 
 ![MATLAB](https://img.shields.io/badge/MATLAB-R2023a-orange.svg)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
