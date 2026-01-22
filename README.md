@@ -40,6 +40,6 @@ $$\tau = M(q)\ddot{q} + C(q, \dot{q})\dot{q} + G(q)$$
 │   └── main.m               # Monolithic simulation script
 │                            # (Contains: IK Solver, Euler-Lagrange Dynamics, Trajectory Planner)
 ├── docs/
-│   └── IRMISREPORT.pdf      # Full Technical Report
+│   └── REPORT.pdf      # Full Technical Report
 ├── .gitignore
 └── README.md
