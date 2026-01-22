@@ -1,4 +1,4 @@
-# Optimized Robotic Medicine-Dispensing Arm
+<img width="830" height="643" alt="image" src="https://github.com/user-attachments/assets/4874a96a-2c04-4130-95b8-3d65033d32e6" /># Optimized Robotic Medicine-Dispensing Arm
 
 ![MATLAB](https://img.shields.io/badge/MATLAB-R2023a-orange.svg)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
@@ -41,15 +41,14 @@ Where $G(q)$ handles dynamic **gravity compensation**, automatically adjusting v
 │   └── REPORT.pdf           # Full Technical Report
 ├── .gitignore
 └── README.md
-
+```
 
 ##  Performance Metrics
-| Metric | Value | Condition |
-| :--- | :--- | :--- |
-| **Convergence Threshold** | $10^{-5}$ m | Euclidean Error |
-| **Payload Capacity** | 0.2 kg | Standard Medicine Bottle |
-| **Optimization Rate** | $\alpha = 0.05$ | Learning Rate |
-| **Trajectory Type** | Quintic S-Curve | Continuous Acceleration |
+Metric,Value,Condition
+Convergence Threshold,10−5 m,Euclidean Error
+Payload Capacity,0.2 kg,Standard Medicine Bottle
+Optimization Rate,α=0.05,Learning Rate
+Trajectory Type,Quintic S-Curve,Continuous Acceleration
 
 ##  Authors
 * **Neelambari P** (DL.AI.U4AID24026)
