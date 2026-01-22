@@ -4,12 +4,12 @@
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Status](https://img.shields.io/badge/Status-Research_Prototype-green.svg)
 
-## 📖 Abstract
+##  Abstract
 This project implements a robust control framework for a **4-DOF SCARA manipulator** designed for automated pharmaceutical dispensing. Unlike conventional geometric solvers, this system formulates Inverse Kinematics (IK) as a **constrained numerical optimization problem** using Jacobian-based gradient descent.
 
 Integrated with a physics-engine based on **Euler-Lagrange dynamics**, the controller performs real-time gravity compensation and torque estimation, ensuring sub-millimeter accuracy ($< 10^{-5}$ m) and mechanical stability under variable payloads.
 
-## ⚙️ Mathematical Framework
+##  Mathematical Framework
 The core control logic relies on two primary mathematical formulations derived in the project report.
 
 ### 1. Optimization-Based Inverse Kinematics
@@ -26,13 +26,13 @@ $$\tau = M(q)\ddot{q} + C(q, \dot{q})\dot{q} + G(q)$$
 
 Where $G(q)$ handles dynamic **gravity compensation**, automatically adjusting vertical force ($F_z$) upon detection of the 0.2 kg payload mass.
 
-## 🚀 Key Features
+##  Key Features
 * **Singularity Robustness:** Numerical optimization prevents high-velocity spikes near workspace boundaries.
 * **Jerk-Free Motion:** Quintic polynomial interpolation generates smooth S-curve velocity profiles, preventing liquid spillage.
 * **Dynamic Payload Detection:** System detects mass changes ($t \approx 90$) and compensates vertical torque instantaneously.
 * **3D Visualization:** Full kinematic simulation including workspace validation and trajectory tracing.
 
-## 📂 Repository Structure
+##  Repository Structure
 ```text
 ├── src/
 │   └── main.m               # Monolithic simulation script
